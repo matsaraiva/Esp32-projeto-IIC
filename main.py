@@ -23,7 +23,7 @@ dados.set_index('created_at', inplace=True)
 plt.figure(figsize=(12, 6))
 plt.plot(dados['temperatura'], label='Temperatura')
 plt.title('Temperatura e Abertura da Janela ao Longo do Tempo')
-plt.xlabel('Tempo')
+plt.xlabel('Data e Hora')
 plt.ylabel('Temperatura / Abertura da Janela')
 plt.legend()
 
